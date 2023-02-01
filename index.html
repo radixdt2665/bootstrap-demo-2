@@ -1,0 +1,721 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="CSS/style.css" />
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>WERPO - b-demo-2</title>
+</head>
+
+<body>
+    
+    <nav class="sticky navbar navbar-expand-lg custom-navbar pt-3 pt-lg-5">
+        <div class="container d-block">
+            <div class="icon-div d-flex justify-content-lg-end pe-lg-5 pb-2">
+                <a href="#" class="social-link mx-2 px-2 text-decoration-none d-flex justify-content-center align-items-center"><i class="social-icon fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="social-link mx-2 px-2 text-decoration-none d-flex justify-content-center align-items-center"><i class="social-icon fa-brands fa-youtube"></i></a>
+                <a href="#" class="social-link mx-2 px-2 text-decoration-none d-flex justify-content-center align-items-center"><i class="social-icon fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-link mx-2 px-2 text-decoration-none d-flex justify-content-center align-items-center"><i class="social-icon fa-brands fa-twitter"></i></a>
+                <a href="#" class="social-link mx-2 px-2 text-decoration-none d-flex justify-content-center align-items-center orange-icon"><i
+                        class="social-icon fa-solid fa-magnifying-glass"></i></a>
+                <a href="#" class="social-link mx-2 px-2 text-decoration-none d-flex justify-content-center align-items-center orange-icon"><i class="social-icon fa-solid fa-user"></i></a>
+            </div>
+            <div class="container d-flex position-relative justify-content-between">
+                <a class="navbar-brand" href="#"><img src="./images/logo.svg" alt="" ></a>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link ps-4 px-lg-2 px-xxl-4 mx-lg-2 active" href="#">Home</a>
+                        <a class="nav-link ps-4 px-lg-2 px-xxl-4 mx-lg-2" href="#">Outdoor</a>
+                        <a class="nav-link ps-4 px-lg-2 px-xxl-4 mx-lg-2" href="#">Smart Lighting</a>
+                        <a class="nav-link ps-4 px-lg-2 px-xxl-4 mx-lg-2" href="#">Lamps</a>
+                        <a class="nav-link ps-4 px-lg-2 px-xxl-4 mx-lg-2" href="#">Application</a>
+                        <a class="nav-link ps-4 px-lg-2 px-xxl-4 mx-lg-2" href="#">Inspiration</a>
+                        <a class="nav-link ps-4 px-lg-2 px-xxl-4 mx-lg-2" href="#">Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- banner-section start -->
+    <section class="banner-section position-relative">
+        <div class="container">
+            <div class="row banner-content pt-lg-4">
+                <div class="col-lg-5 mb-lg-0">
+                    <h2 class="text-white mb-0 font-montserrat fw-bold">Eliminate or Reduce Your Electric Bill! Harvest Power Makes it Possible</h2>
+                    <p class="text-white my-3">We’ll help you take advantage of New York State & Federal Tax Credits Before
+                        They're Gone!</p>
+                    <a href="#" class="btn btn-green me-3 me-lg-3 mb-3">How Much Would I Be Able To Save?</a>
+                    <a href="#" class="btn btn-orange mb-3">Get a Quote</a>
+                </div>
+                <div class="col-lg-6 offset-lg-1 mt-4 mt-lg-0 text-center">
+                    <img src="./images/baner-image.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div id="curved-corner-bottomright"></div>
+
+    </section>
+    <!-- banner-section end -->
+    
+    <section class="sub-section position-relative">
+        <!-- <div class="img-div text-center">
+            <img src="./images/solar-svg.svg" alt="">
+        </div> -->
+        <div class="container">
+            <div class="main-content text-center mt-5">
+                <h2 class="text-uppercase mt-4 font-montserrat letter-spacing"><span class="text-white">Wepro</span> <span class="theme-color fw-bold">solar panel system</span></h2>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-lg-4 col-xl-3 offset-xl-1 mt-2 mt-lg-5">
+                        <img src="./images/icon-1.svg" alt="" class="system-icon">
+                        <p class="theme-color font-montserrat">Rooftop Solar (A)</p>
+                        <p class="text-white">Photovoltaic (PV) cells convert sunlight into DC electricity</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3 offset-xl-1 mt-2 mt-lg-5">
+                        <img src="./images/icon-2.svg" alt="" class="system-icon">
+                        <p class="theme-color font-montserrat">Energy Storage (B)</p>
+                        <p class="text-white">AC electricity is stored onsite for later use, like during peak times when deman charges are their highest</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3 offset-xl-1 mt-2 mt-lg-5">
+                        <img src="./images/icon-3.svg" alt="" class="system-icon">
+
+                        <p class="theme-color font-montserrat">Ground Mounted Solar (C)</p>
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3 offset-xl-1 mt-2 mt-lg-5">
+                        <img src="./images/icon-4.svg" alt="" class="system-icon">
+                        <p class="theme-color font-montserrat">Solar CarPort (D)</p>
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3 offset-xl-1 mt-2 mt-lg-5">
+                        <img src="./images/icon-5.svg" alt="" class="system-icon">
+                        <p class="theme-color font-montserrat">Solar Powered Electric Car Changing Station (E)</p>
+                        <p class="text-white mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="curved-corner-bottomright"></div>
+    </section>
+
+    <!-- why-choose-section start -->
+    <section class="why-choose-section py-5 position-relative">
+        <div id="curved-corner-bottomright"></div>
+
+        <div class="container">
+            <div class="text-center pt-lg-5">
+                <p class="f-25 text-uppercase font-montserrat letter-spacing"><span>WHY CHOOSE SOLAR </span><span class="theme-color fw-bold">FROM WERPO?</span></p>
+            </div>
+            <div class="row mt-lg-5">
+                <div class="col-md-6 col-lg-6 mt-lg-4 mt-4">
+                    <div class="row text-center text-lg-start">
+                        <div class="col-lg-3">
+                            <img src="./images/why-choose-i-1.svg" alt="" class="img-fluid why-choose-icon">
+                        </div>
+                        <div class="col-lg-9">
+                            <p class="theme-color fw-bold">Energy Expertise</p>
+                            <p class="f-14 mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 mt-lg-4 mt-4">
+                    <div class="row text-center text-lg-start">
+                        <div class="col-lg-3">
+                            <img src="./images/why-choose-i-1.svg" alt="" class="img-fluid why-choose-icon">
+                        </div>
+                        <div class="col-lg-9">
+                            <p class="theme-color fw-bold">Energy Expertise</p>
+                            <p class="f-14 mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 mt-lg-4 mt-4">
+                    <div class="row text-center text-lg-start">
+                        <div class="col-lg-3">
+                            <img src="./images/why-choose-i-1.svg" alt="" class="img-fluid why-choose-icon">
+                        </div>
+                        <div class="col-lg-9">
+                            <p class="theme-color fw-bold">Energy Expertise</p>
+                            <p class="f-14 mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 mt-lg-4 mt-4">
+                    <div class="row text-center text-lg-start">
+                        <div class="col-lg-3">
+                            <img src="./images/why-choose-i-1.svg" alt="" class="img-fluid why-choose-icon">
+                        </div>
+                        <div class="col-lg-9">
+                            <p class="theme-color fw-bold">Energy Expertise</p>
+                            <p class="f-14 mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 mt-lg-4 mt-4">
+                    <div class="row text-center text-lg-start">
+                        <div class="col-lg-3">
+                            <img src="./images/why-choose-i-1.svg" alt="" class="img-fluid why-choose-icon">
+                        </div>
+                        <div class="col-lg-9">
+                            <p class="theme-color fw-bold">Energy Expertise</p>
+                            <p class="f-14 mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 mt-lg-4 mt-4">
+                    <div class="row text-center text-lg-start">
+                        <div class="col-lg-3">
+                            <img src="./images/why-choose-i-1.svg" alt="" class="img-fluid why-choose-icon">
+                        </div>
+                        <div class="col-lg-9">
+                            <p class="theme-color fw-bold">Energy Expertise</p>
+                            <p class="f-14 mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="bg-theme orange-hr my-5 my-lg-5">
+            <div class="row mt-lg-5 align-items-center pb-5rem">
+                <div class="col-lg-3">
+                    <img src="./images/person-img-svg.svg" alt="" class="person-svg position-absolute bottom-0">
+                </div>
+                <div class="col-lg-9">
+                    <div class="text-center">
+                        <p class="f-25 text-uppercase mb-1 mb-lg-2 font-montserrat letter-spacing"><span>our </span><span class="theme-color fw-bold">solar partners</span></p>
+                        <p>Brands Behind The Technology</p>
+                        <img src="./images/brand-1.png" alt="" class=" mt-lg-4 img-fluid">
+                    </div>
+                    <div class="text-center mt-5">
+                        <p class="f-25 text-uppercase mb-1 mb-lg-2 font-montserrat letter-spacing"><span>Werpo </span><span class="theme-color fw-bold">solar inverters</span></p>
+                        <p>Brands Behind The Technology</p>
+                        <img src="./images/brand-2.png" alt="" class=" mt-lg-4 img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="curved-corner-bottomleft"></div>
+
+        
+        
+    </section>
+    <!-- why-choose-section end -->
+    
+    <!-- business-section start -->
+    <section class="business-section pt-5 position-relative">
+        
+        <div id="curved-corner-bottomright"></div>
+        <div class="container">
+            <div class="text-center">
+                <p class="f-25 text-uppercase font-montserrat letter-spacing"><span>What can it </span><span class="theme-color fw-bold">do for your business?</span></p>
+                <p class="mb-0 mb-lg-2">Here are 9 Reasons why your business needs to go solar now!</p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4 mt-4 mt-lg-5 pt-5">
+                    <div class="card text-center px-2 px-md-3 px-lg-4 px-xl-4 pb-5 h-100 shadow border-0">
+                        <img src="./images/benefit-svg-1.svg" alt="" class="icon-img position-absolute top-0 right-0">
+                        <p class="title fw-bold">Offer an economic option</p>
+                        <p class="f-14">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt-4 mt-lg-5 pt-5">
+                    <div class="card text-center px-2 px-md-3 px-lg-4 px-xl-4 pb-5 h-100 shadow border-0">
+                        <img src="./images/benefit-svg-2.svg" alt="" class="icon-img position-absolute top-0 right-0">
+                        <p class="title fw-bold">Meet sustainability goals</p>
+                        <p class="f-14">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt-4 mt-lg-5 pt-5">
+                    <div class="card text-center px-2 px-md-3 px-lg-4 px-xl-4 pb-5 h-100 shadow border-0">
+                        <img src="./images/benefit-svg-1.svg" alt="" class="icon-img position-absolute top-0 right-0">
+                        <p class="title fw-bold">Deliver a reliable energy</p>
+                        <p class="f-14">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt-4 mt-lg-5 pt-5">
+                    <div class="card text-center px-2 px-md-3 px-lg-4 px-xl-4 pb-5 h-100 shadow border-0">
+                        <img src="./images/benefit-svg-2.svg" alt="" class="icon-img position-absolute top-0 right-0">
+                        <p class="title fw-bold">Improves Cash Flow</p>
+                        <p class="f-14">Turn on your savings and improve your cash flow. With solar you can be cash-flow positive immediately. For less than you’ve been paying your utility, you could be producing pure, clean, renewable solar energy.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt-4 mt-lg-5 pt-5">
+                    <div class="card text-center px-2 px-md-3 px-lg-4 px-xl-4 pb-5 h-100 shadow border-0">
+                        <img src="./images/benefit-svg-1.svg" alt="" class="icon-img position-absolute top-0 right-0">
+                        <p class="title fw-bold">Adds Value To Your Business</p>
+                        <p class="f-14">Adding solar to your business significantly increases its value and adds an asset to your balance sheet. However, unlike adding buildings, solar does not increase your property taxes.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt-4 mt-lg-5 pt-5">
+                    <div class="card text-center px-2 px-md-3 px-lg-4 px-xl-4 pb-5 h-100 shadow border-0">
+                        <img src="./images/benefit-svg-2.svg" alt="" class="icon-img position-absolute top-0 right-0">
+                        <p class="title fw-bold">Locks In Your Cost of Energy & Lower Electricity Costs</p>
+                        <p class="f-14">Eliminate those monthly surprises. On average, California electric rates have increased 5.5% every year since 1971. PG&E has already approved for rate increases of 22% over the next 3 years. </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt-4 mt-lg-5 pt-5">
+                    <div class="card text-center px-2 px-md-3 px-lg-4 px-xl-4 pb-5 h-100 shadow border-0">
+                        <img src="./images/benefit-svg-1.svg" alt="" class="icon-img position-absolute top-0 right-0">
+                        <p class="title fw-bold">30% Federal Tax Credit</p>
+                        <p class="f-14">Now through 2016 you’re eligible to take advantage of a 30% Federal Tax Credit. Don’t wait, the federal tax credit will expire in 2016 and will no longer be available.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt-4 mt-lg-5 pt-5">
+                    <div class="card text-center px-2 px-md-3 px-lg-4 px-xl-4 pb-5 h-100 shadow border-0">
+                        <img src="./images/benefit-svg-2.svg" alt="" class="icon-img position-absolute top-0 right-0">
+                        <p class="title fw-bold">Accelerated Depreciation</p>
+                        <p class="f-14">As a business, you can depreciate 85% of the solar purchase price over six years. The depreciation is front loaded with the majority of the savings in the first 3 years</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt-4 mt-lg-5 pt-5">
+                    <div class="card text-center px-2 px-md-3 px-lg-4 px-xl-4 pb-5 h-100 shadow border-0">
+                        <img src="./images/benefit-svg-2.svg" alt="" class="icon-img position-absolute top-0 right-0">
+                        <p class="title fw-bold">Solar Pays For Itself</p>
+                        <p class="f-14">Your solar system is guaranteed to pay for itself with the tax and electric savings. You’ll be producing pure, clean, green energy for the next 30+ years. We’ve had many agricultural, commercial and Municiple Clients.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt-4 mt-lg-5 pt-5">
+                    <div class="card text-center px-2 px-md-3 px-lg-4 px-xl-4 pb-5 h-100 shadow border-0">
+                        <img src="./images/benefit-svg-1.svg" alt="" class="icon-img position-absolute top-0 right-0">
+                        <p class="title fw-bold">Solar Prices Will Be Increasing</p>
+                        <p class="f-14">Solar prices have bottomed out and are going up. The diminished supply of panels and increasing material costs are resulting in pricing increases.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt-4 mt-lg-5 pt-5">
+                    <div class="card text-center px-2 px-md-3 px-lg-4 px-xl-4 pb-5 h-100 shadow border-0">
+                        <img src="./images/benefit-svg-1.svg" alt="" class="icon-img position-absolute top-0 right-0">
+                        <p class="title fw-bold">Zero Down Financing</p>
+                        <p class="f-14">Financing is available with numerous zero down options. We’re experts when it comes to financing your solar project, from a straight purchase, to a long term lease or a power purchase agreement.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mt-4 mt-lg-5 pt-5">
+                    <div class="card text-center px-2 px-md-3 px-lg-4 px-xl-4 pb-5 h-100 shadow border-0">
+                        <img src="./images/benefit-svg-2.svg" alt="" class="icon-img position-absolute top-0 right-0">
+                        <p class="title fw-bold">Socially & Environmentally Responsible</p>
+                        <p class="f-14">As a solar producer, you would be doing your part to reduce harmful CO-2 gasses created by non-green electrical production. Your use of solar would help diminish our dependency on fossil fuels.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- business-section end -->
+
+    <!-- step-section start -->
+    <section class="step-section">
+        <!-- <div style="border: 10px solid;position: absolute;width: 250px;height: 250px;">
+        </div> -->
+        <div id="curved-corner-topright"></div>
+        <div class="container">
+
+            <p class="f-25 text-uppercase text-white title text-center text-lg-start mb-0 mb-lg-2 font-montserrat letter-spacing">5 Steps to solar power</p>
+            <div class="row">
+                <div class="col-lg-6 pt-4 pt-lg-5">
+                    <div class="d-lg-flex align-items-start g-5 step-flex text-center text-lg-start">
+                        <!-- <div class="icon-main"> -->
+                            <img src="./images/step-icon.svg" alt="" class="img-fluid pe-lg-5 step-icon">
+                        <!-- </div> -->
+                        <div class="content text-white">
+                            <p><span class="fw-bold">Step 1</span> -- Review your needs</p>
+                            <p class="f-14">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-5">
+                    <div class="d-lg-flex align-items-start g-5 step-flex text-center text-lg-start">
+                        <!-- <div class="icon-main"> -->
+                            <img src="./images/step-icon.svg" alt="" class="img-fluid pe-lg-5 step-icon">
+                        <!-- </div> -->
+                        <div class="content text-white">
+                            <p><span class="fw-bold">Step 2</span> -- Review your needs</p>
+                            <p class="f-14">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-5">
+                    <div class="d-lg-flex align-items-start g-5 step-flex text-center text-lg-start">
+                        <!-- <div class="icon-main"> -->
+                            <img src="./images/step-icon.svg" alt="" class="img-fluid pe-lg-5 step-icon">
+                        <!-- </div> -->
+                        <div class="content text-white">
+                            <p><span class="fw-bold">Step 3</span> -- Review your needs</p>
+                            <p class="f-14">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-5">
+                    <div class="d-lg-flex align-items-start g-5 step-flex text-center text-lg-start">
+                        <!-- <div class="icon-main"> -->
+                            <img src="./images/step-icon.svg" alt="" class="img-fluid pe-lg-5 step-icon">
+                        <!-- </div> -->
+                        <div class="content text-white">
+                            <p><span class="fw-bold">Step 4</span> -- Review your needs</p>
+                            <p class="f-14">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-5">
+                    <div class="d-lg-flex align-items-start g-5 step-flex text-center text-lg-start">
+                        <!-- <div class="icon-main"> -->
+                            <img src="./images/step-icon.svg" alt="" class="img-fluid pe-lg-5 step-icon">
+                        <!-- </div> -->
+                        <div class="content text-white">
+                            <p><span class="fw-bold">Step 5</span> -- Review your needs</p>
+                            <p class="f-14 mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="curved-corner-botomright"></div>
+
+    </section>
+    <!-- step-section end -->
+
+    <!-- benefit-section start -->
+    <section class="benefit-section pb-5">
+        <div class="container">
+            <div class="row py-lg-5">
+                <div class="col-lg-5 col-xl-6">
+                    <div class="img-main">
+                        <img src="./images/benefit-img.svg" alt="" class="img-fluid d-none d-lg-block">
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 offset-xl-0">
+                    <div class="benefit-content">
+                        <p class="f-25 text-uppercase font-montserrat letter-spacing"><span>benefits of solar panel </span><span class="theme-color fw-bold">on carports</span></p>
+                        <p class="theme-color fw-bold">What are Solar Carports?</p>
+                        <p>Solar carports are essentially roof-mounted solar panels installed above parking lots. This form of installation is one of the fastest-growing trends in the commercial solar industry, primarily because the advantages are too good to pass up. Solar carports require no additional land since the solar panel installation occurs on an existing parking lot.</p>
+                        <p>There are many benefits of installing solar carports for your business. At WERPO Solar, our solar carport applications come with:</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-0 pt-lg-5 justify-content-evenly g-4 g-lg-0">
+                <div class="col-6 col-md-4 col-lg-2 text-center icon-div-border">
+                    <img src="./images/benefit-svg-1.svg" alt="" class="img-fluid">
+                    <p class="mb-0 pt-3 pt-lg-5">Energy-efficient LED lighting
+                        packages for nighttime use</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 text-center icon-div-border">
+                    <img src="./images/benefit-svg-2.svg" alt="" class="img-fluid">
+                    <p class="mb-0 pt-3 pt-lg-5">Customizable design</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 text-center icon-div-border">
+                    <img src="./images/benefit-svg-3.svg" alt="" class="img-fluid">
+                    <p class="mb-0 pt-3 pt-lg-5">Complete design of
+                        foundations & electrical layout</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 text-center icon-div-border">
+                    <img src="./images/benefit-svg-4.svg" alt="" class="img-fluid">
+                    <p class="mb-0 pt-3 pt-lg-5">Different color and
+                        design options</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 text-center icon-div-border">
+                    <img src="./images/benefit-svg-5.svg" alt="" class="img-fluid">
+                    <p class="mb-0 pt-3 pt-lg-5">Complete engineering
+                        and certification</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- benefit-section end -->
+
+    <!-- car-chargin-section start -->
+    <section class="car-charging-section pb-5">
+        <div class="container">
+            <hr class="my-0 my-lg-5">
+            <div class="row pt-5 pb-lg-5">
+                <div class="col-lg-6">
+                    <div class="charging-content">
+                        <p class="f-25 text-uppercase font-montserrat letter-spacing"><span>Ev car </span><span class="theme-color fw-bold">charging stations</span></p>
+                        <p class="theme-color fw-bold">What are Solar Carports?</p>
+                        <p>An electric vehicle charging station, also called EV charging station, electric recharging point, charging point, charge point, electronic charging station (ECS), and electric vehicle supply equipment (EVSE), is an element in an infrastructure that supplies electric energy for the recharging of plug-in electric vehicles—including electric cars, neighborhood electric vehicles and plug-in hybrids.</p>
+                        <p>For charging at home or work, some electric vehicles have converters on board that can plug into a standard electrical outlet or a high-capacity appliance outlet. Others either require or can use a charging station that provides electrical conversion, monitoring, or safety functionality.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="img-main text-end">
+                        <img src="./images/charging-img.svg" alt="" class="img-fluid d-none d-lg-block">
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-0 pt-lg-5 justify-content-evenly g-4 g-lg-0">
+                <div class="col-6 col-md-4 col-lg-2 text-center icon-div-border">
+                    <img src="./images/benefit-svg-1.svg" alt="">
+                    <p class="mb-0 pt-3 pt-lg-5">Lorem ipsum Benefit 1</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 text-center icon-div-border">
+                    <img src="./images/benefit-svg-2.svg" alt="">
+                    <p class="mb-0 pt-3 pt-lg-5">Lorem ipsum Benefit 2</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 text-center icon-div-border">
+                    <img src="./images/benefit-svg-3.svg" alt="">
+                    <p class="mb-0 pt-3 pt-lg-5">Lorem ipsum Benefit 3</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 text-center icon-div-border">
+                    <img src="./images/benefit-svg-4.svg" alt="">
+                    <p class="mb-0 pt-3 pt-lg-5">Lorem ipsum Benefit 4</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 text-center icon-div-border">
+                    <img src="./images/benefit-svg-5.svg" alt="">
+                    <p class="mb-0 pt-3 pt-lg-5">Lorem ipsum Benefit 5</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- car-chargin-section end -->
+
+    <!-- community-section start -->
+    <section class="community-section">
+        <div class="container">
+            <hr class="my-0 my-lg-5">
+            <div class="row pt-5 pb-lg-5">
+                <div class="col-lg-6">
+                    <div class="img-main">
+                        <img src="./images/benefit-svg.svg" alt="" class="img-fluid d-none d-lg-block">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="charging-content">
+                        <p class="f-25 text-uppercase font-montserrat letter-spacing"><span>benefits of </span><span class="theme-color fw-bold">community solar</span></p>
+                        <p class="theme-color fw-bold">What are Community Solar?</p>
+                       <p>Community solar represents the next era in electricity generation and purchasing.  After being recently approved in New York, this new program is gaining popularity across the country as a new option for solar consumers! Community solar allows individuals across a community to opt-in and buy energy generated from one central solar system at a reduced cost.</p>
+                        <p>A community solar project is a group of solar panels installed on a roof, carport or ground mount that generates energy for multiple “subscribers.” </p>
+                        <p>In New York State, any electric customer in the same utility territory as the solar plant can subscribe, pay for the solar output and in return get credits on their electric bills. Each project offers a virtual connection to a physical solar power plant that can offset up to 99% of your electric bill with predictable rates and terms.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-0 pt-lg-5 justify-content-evenly g-4 g-lg-0">
+                <div class="col-6 col-md-4 col-lg-2 text-center icon-div-border">
+                    <img src="./images/benefit-svg-1.svg" alt="">
+                    <p class="mb-0 pt-3 pt-lg-5">No Bothersome Installation</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 text-center icon-div-border">
+                    <img src="./images/benefit-svg-2.svg" alt="">
+                    <p class="mb-0 pt-3 pt-lg-5">No Upfront Cost</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 text-center icon-div-border">
+                    <img src="./images/benefit-svg-3.svg" alt="">
+                    <p class="mb-0 pt-3 pt-lg-5">Cheaper Utility Bills</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 text-center icon-div-border">
+                    <img src="./images/benefit-svg-4.svg" alt="">
+                    <p class="mb-0 pt-3 pt-lg-5">Energy Independence</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 text-center icon-div-border">
+                    <img src="./images/benefit-svg-5.svg" alt="">
+                    <p class="mb-0 pt-3 pt-lg-5">Step to Stop Climate Change</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- community-section end -->
+
+    <!-- plan-section start -->
+    <section class="plan-section py-5">
+        <div class="container">
+            <div class="text-center py-lg-5">
+                <p class="f-25 font-montserrat letter-spacing">A Plan for Every Budget</p>
+            </div>
+            <div class="row pb-lg-5 justify-content-center">
+                <div class="col-12 col-lg-6 col-xl-4 col-xxl-3 mt-4">
+                    <div class="card pb-4 shadow">
+                        <div class="title text-center py-3">
+                            <p class="mb-0 fw-bold dark-color">Solar Purchase</p>
+                        </div>
+                        <div class="content text-center dark-color">
+                            <p class="f-14 px-4 pt-4 mb-0">Purchase your solar panels and see monthly savings on your power bill.</p>
+                            <ul class="ps-0">
+                                <li class="f-14 pt-3 py-lg-3 d-flex align-items-center justify-content-center">Lorem ipsum dolor sit amet, consect</li>
+                                <li class="f-14 pt-3 py-lg-3 d-flex align-items-center justify-content-center">Lorem ipsum dolor sit amet, consect</li>
+                                <li class="f-14 pt-3 py-lg-3 d-flex align-items-center justify-content-center">Lorem ipsum dolor sit amet, consect</li>
+                                <li class="f-14 pt-3 py-lg-3 d-flex align-items-center justify-content-center">Lorem ipsum dolor sit amet, consect</li>
+                            </ul>
+                            <a class="btn bg-theme text-white px-4 theme-btn" href="#" role="button">Purchase Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-4 col-xxl-3 mt-4">
+                    <div class="card pb-4 shadow">
+                        <div class="title text-center py-3">
+                            <p class="mb-0 fw-bold dark-color">Solar PPA</p>
+                        </div>
+                        <div class="content text-center dark-color">
+                            <p class="f-14 px-4 pt-4 mb-0">Purchase your solar panels and see monthly savings on your power bill.</p>
+                            <ul class="ps-0">
+                                <li class="f-14 pt-3 py-lg-3 d-flex align-items-center justify-content-center">Lorem ipsum dolor sit amet, consect</li>
+                                <li class="f-14 pt-3 py-lg-3 d-flex align-items-center justify-content-center">Lorem ipsum dolor sit amet, consect</li>
+                                <li class="f-14 pt-3 py-lg-3 d-flex align-items-center justify-content-center">Lorem ipsum dolor sit amet, consect</li>
+                                <li class="f-14 pt-3 py-lg-3 d-flex align-items-center justify-content-center">Lorem ipsum dolor sit amet, consect</li>
+                            </ul>
+                            <a class="btn bg-theme text-white px-4 theme-btn" href="#" role="button">PPA Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-4 col-xxl-3 mt-4">
+                    <div class="card pb-4 shadow">
+                        <div class="title text-center py-3">
+                            <p class="mb-0 fw-bold dark-color">Solar Loan</p>
+                        </div>
+                        <div class="content text-center dark-color">
+                            <p class="f-14 px-4 pt-4 mb-0">Purchase your solar panels and see monthly savings on your power bill.</p>
+                            <ul class="ps-0">
+                                <li class="f-14 pt-3 py-lg-3 d-flex align-items-center justify-content-center">Lorem ipsum dolor sit amet, consect</li>
+                                <li class="f-14 pt-3 py-lg-3 d-flex align-items-center justify-content-center">Lorem ipsum dolor sit amet, consect</li>
+                                <li class="f-14 pt-3 py-lg-3 d-flex align-items-center justify-content-center">Lorem ipsum dolor sit amet, consect</li>
+                                <li class="f-14 pt-3 py-lg-3 d-flex align-items-center justify-content-center">Lorem ipsum dolor sit amet, consect</li>
+                            </ul>
+                            <a class="btn bg-theme text-white px-4 theme-btn" href="#" role="button">Loan Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-4 col-xxl-3 mt-4">
+                    <div class="card pb-4 shadow">
+                        <div class="title text-center py-3">
+                            <p class="mb-0 fw-bold dark-color">Solar Lease</p>
+                        </div>
+                        <div class="content text-center dark-color">
+                            <p class="f-14 px-4 pt-4 mb-0">Purchase your solar panels and see monthly savings on your power bill.</p>
+                            <ul class="ps-0">
+                                <li class="f-14 pt-3 py-lg-3 d-flex align-items-center justify-content-center">Lorem ipsum dolor sit amet, consect</li>
+                                <li class="f-14 pt-3 py-lg-3 d-flex align-items-center justify-content-center">Lorem ipsum dolor sit amet, consect</li>
+                                <li class="f-14 pt-3 py-lg-3 d-flex align-items-center justify-content-center">Lorem ipsum dolor sit amet, consect</li>
+                                <li class="f-14 pt-3 py-lg-3 d-flex align-items-center justify-content-center">Lorem ipsum dolor sit amet, consect</li>
+                            </ul>
+                            <a class="btn bg-theme text-white px-4 theme-btn" href="#" role="button">Lease Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- plan-section end -->
+
+    <!-- get-quote-section start -->
+    <section class="get-quote-section py-5 bg-theme">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="text-uppercase text-white f-45 font-montserrat letter-spacing fw-bold">Get a quote today!</h2>
+                <p class="pb-lg-2 mb-0 text-white mt-3 f-17">Find out which options work best for you.</p>
+                <div class="row mt-4">
+                    <div class="col-lg-4 mb-3 mb-lg-0">
+                        <a class="btn w-bg-btn border text-white pe-5" href="#" role="button"><i class="fa-solid fa-comment-dots pe-4"></i>Talk to Sales Repo.</a>
+                    </div>
+                    <div class="col-lg-4 mb-3 mb-lg-0">
+                        <a class="btn w-bg-btn border text-white pe-5" href="#" role="button"><i class="fa-solid fa-phone pe-4"></i>Call us thru online hotline</a>
+                    </div>
+                    <div class="col-lg-4 mb-3 mb-lg-0">
+                        <a class="btn w-bg-btn border text-white pe-5" href="#" role="button"><i class="fa-solid fa-envelope pe-4"></i>Email Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- get-quote-section end -->
+
+    <!-- footer-start -->
+    <footer class="footer py-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="#" class="text-white footer-links position-relative text-decoration-none me-4 d-block d-lg-inline-block mb-4">Home</a>
+                    <a href="#" class="text-white footer-links position-relative text-decoration-none me-4 d-block d-lg-inline-block mb-4">Outdoor</a>
+                    <a href="#" class="text-white footer-links position-relative text-decoration-none me-4 d-block d-lg-inline-block mb-4">Smart Lighting</a>
+                    <a href="#" class="text-white footer-links position-relative text-decoration-none me-4 d-block d-lg-inline-block mb-4">Lamps</a>
+                    <a href="#" class="text-white footer-links position-relative text-decoration-none me-4 d-block d-lg-inline-block mb-4">Application</a>
+                    <a href="#" class="text-white footer-links position-relative text-decoration-none me-4 d-block d-lg-inline-block mb-4">Inspiration</a>    
+                    <a href="#" class="text-white footer-links position-relative text-decoration-none me-4 d-block d-lg-inline-block mb-4">Our Company</a>    
+                </div>
+                <div class="col-12 col-sm-6 col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="d-flex">
+                                <span><i class="fa-solid fa-house theme-color pe-3"></i></span>
+                                <p class="text-white">Unit / bldg. No, 
+                                    street City,Stato,Country
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-flex">
+                                <span><i class="fa-solid fa-phone theme-color pe-3"></i></span>
+                                <div class="contact-numer text-white">
+                                    <p class="mb-lg-0"><a href="tel:+(03) 0106 321 4467" class="text-white text-decoration-none" >Office 1:+(03) 0106 321 4467</a></p>
+                                    <p class="mb-lg-0"><a href="tel:+(03) 0106 321 4467" class="text-white text-decoration-none" >Office 2:+(03) 0106 321 4467</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-flex">
+                                <span><i class="fa-regular fa-envelope theme-color pe-3"></i></span>
+                                <div class="contact-numer text-white">
+                                    <p class="mb-lg-0"><a href="mailto:info@werpolighting.com" class="text-white text-decoration-none">info@werpolighting.com</a></p>
+                                    <p class="mb-lg-0"><a href="mailto:support@werpolighting.com" class="text-white text-decoration-none">support@werpolighting.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-lg-4">
+            <div class="d-xl-flex justify-content-between pt-lg-4">
+                <div class="icon-div d-flex">
+                    <a href="#" class="social-link mx-2 px-2 text-decoration-none d-flex justify-content-center align-items-center"><i class="social-icon fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-link mx-2 px-2 text-decoration-none d-flex justify-content-center align-items-center"><i class="social-icon fa-brands fa-youtube"></i></a>
+                    <a href="#" class="social-link mx-2 px-2 text-decoration-none d-flex justify-content-center align-items-center"><i class="social-icon fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link mx-2 px-2 text-decoration-none d-flex justify-content-center align-items-center"><i class="social-icon fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-link mx-2 px-2 text-decoration-none d-flex justify-content-center align-items-center orange-icon theme-color"><i class="social-icon fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#" class="social-link mx-2 px-2 text-decoration-none d-flex justify-content-center align-items-center orange-icon theme-color"><i class="social-icon fa-solid fa-user"></i></a>
+                </div>
+                <div class="copy-right-links">
+                    <ul class="text-white f-14 list-unstyled d-lg-flex mb-0">
+                        <li class="mt-2 mt-lg-0 ps-0 ps-xl-4"><a href="#" class="text-white text-decoration-none f-link">2019 werpo Lighting Company. All Rights Reserved</a></li>
+                        <li class="mt-2 mt-lg-0 ps-0 ps-xl-4"><a href="#" class="text-white text-decoration-none f-link">Privacy</a></li>
+                        <li class="mt-2 mt-lg-0 ps-0 ps-xl-4"><a href="#" class="text-white text-decoration-none f-link">Legal</a></li>
+                        <li class="mt-2 mt-lg-0 ps-0 ps-xl-4"><a href="#" class="text-white text-decoration-none f-link">FAQs</a></li>
+                        <li class="mt-2 mt-lg-0 ps-0 ps-xl-4"><a href="#" class="text-white text-decoration-none f-link">Our Company</a></li>
+                        <li class="mt-2 mt-lg-0 ps-0 ps-xl-4"><a href="#" class="text-white text-decoration-none f-link">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer-end -->
+
+    <script>
+    $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    var height = $(".custom-navbar").outerHeight();
+    if (scroll >= 50) {
+        $(".custom-navbar").addClass("darkHeader");
+    } else {
+        $(".custom-navbar").removeClass("darkHeader");
+    }
+});
+    </script>
+
+</body>
+
+</html>

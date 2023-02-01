@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="25" height="25">
+	<title>New Project</title>
+	<defs>
+		<image  width="25" height="25" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAMAAADzN3VRAAAAAXNSR0IB2cksfwAAAMNQTFRFAAAA/2IA/2IA/2IA/2IA/2IA/2IA/2IA/2IA/2IA/2IA/2IA/2IA/2IA/5hX//Dn/7GA/3Yh//j0/////+nb/2MC/9rD/6dw/6l0/9i//2MB/3wr//v4//fy/3Uf/2UF/+DM/55i/5xf/5FM/9G0/+nc/7OD/4I0//38//Tt/3EY/6Vt//7+/9O3/2wR/2cI/+bW/5ZV/49J//Xv/+rd/8im/8mn/3gj/+PS/+/l/24T/2kL/5BL/6hy/8Gb/4g9/2kMAIU8rwAAAEF0Uk5TAA1fqN38/wmA8C/aQvT////////////////////////////////////////////////////////////////////IGJvtAAAA6klEQVR4nH2S2XrCIBCFCRBCjNblVOtad6vdbGvr3uX9n0pChATb5lyE+fJzmGEYQhJ5lHFf+JxRj2QVyFAYhTJIQSESWUUFA4ol4apUPDsugULaFUS/gDowziUvfl6VK+orVbmhC6o1XMcVeoS6oN4AbuKAEuaSJtBqxwEj3AGdLnq3OuLEz4L+ABgmoU/0MmqN9VoBJmZX4pkCs7oQd3Ms7oXx6DwPj8DT8/IFeDUWfq7tbQW8fwBrm5KZ+2y2UNrtLaG2B4e1IkcLVA/Svn3Ov9L6pdPr7x8LdK//f5+cN82Zg5zZ+XPeTlgdFT+0UM+dAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Vector Smart Object copy 2" href="#img1" x="0" y="0"/>
+</svg>
